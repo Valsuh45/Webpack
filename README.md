@@ -4,9 +4,9 @@ Webpack is an open-source bundler for JavaScript applications. It is used in web
 
 This project, is a webpack used case, in which we make use of some webpack features such ass `loaders` and `plugins`.
 Some used `loaders` in this project include;
-## css-loader
-## babel-loader
-## svg-inline-loader
+### css-loader
+### babel-loader
+### svg-inline-loader
 
 
 # Installation & Usage
@@ -56,15 +56,15 @@ Alternatively, the `yarn` package manager can be used to install webpack as well
 ```bash
 yarn add webpack webpack-cli --dev
 ```
-We then proceed by creating our `webpack.config.js` file, in this file. In this file, we would configure Webpack for our project. This file allows us to specify various options and optimise how Webpack bundles our project. 
+We then proceed by creating our `webpack.config.js` file. In this file, we would configure Webpack for our project. This file allows us to specify various options and optimise how Webpack bundles our project. 
 Some of the contents of this file are;
 
-## Entry point
-## Output configuration
-## Loaders Configuration
-## Plugins configuration
-## Mode configuration
-## DevServer Configuration
+### - Entry point
+### - Output configuration
+### - Loaders Configuration
+### - Plugins configuration
+### - Mode configuration
+### - DevServer Configuration
 
 After creating it, we proceed by installing the various `loaders`  and `plugin` used (as per our sample project) 
 ```bash
@@ -84,7 +84,7 @@ The added content, is used to build our project for production and typically sta
 
 After completing the above steps, and having the same code like that of our sample project
 ```bash 
-https://github.com/ValantineSuh/Webpack
+https://github.com/Valsuh45/Webpack
 ```
 
 We can now run our code using the following commands;
